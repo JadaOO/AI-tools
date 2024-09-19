@@ -4,7 +4,7 @@ const Chatgpt: React.FC = () => {
   return (
     <div>
       <h2>Chatgpt</h2>
-      <p>This is theChatgpt page.</p>
+      <p>This is the Chatgpt page.</p>
     </div>
   );
 };

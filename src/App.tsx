@@ -8,6 +8,7 @@ import MainButtons from "./webComponent/MainButtons";
 import Navbar from "./webComponent/Navbar";
 import OCR from "./Microsoft/OCR";
 import Services from "./Google/Service";
+import Chatgpt from "./Chatgpt/Chatgpt";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/ocr" element={<OCR />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/ask_chatgpt" element={<Chatgpt />} />
           {/* <Route path="/data" element={<Data />} />
           <Route path="/" element={<Chatbot />} /> Default route */}
         </Routes>
