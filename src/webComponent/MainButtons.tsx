@@ -6,7 +6,7 @@ const MainButtons: React.FC = () => {
   return (
     <div>
       <Link to="/chatbot">
-        <button>Chatbot</button>
+        <button>Chatbot-AWS Lex</button>
       </Link>
       <Link to="/route2">
         <button>Go to Route 2</button>

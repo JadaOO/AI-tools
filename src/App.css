@@ -77,21 +77,3 @@ h1 {
 .App-link {
   color: #61dafb;
 }
-
-.App-footer {
-  padding: 20px;
-  background-color: var(--background-color);
-  border-top: var(--border);
-  text-align: center;
-  font-size: 1rem;
-  width: 100%;
-}
-
-.App-footer a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-.App-footer a:hover {
-  text-decoration: underline;
-}
