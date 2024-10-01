@@ -1,27 +1,28 @@
 import React, { useState } from "react";
-import { callChatGPT } from "./chatgptService";
+import callChatGPT from "./chatgptService";
 
 const Chatgpt: React.FC = () => {
-  const [input, setInput] = useState<string>("");
-  const [response, setResponse] = useState<string | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
+  // const [input, setInput] = useState<string>("");
+  // const [response, setResponse] = useState<string | null>(null);
+  // const [loading, setLoading] = useState<boolean>(false);
 
-  const handleSubmit = async (event: React.FormEvent) => {
-    event.preventDefault();
-    setLoading(true);
-    try {
-      const result = await callChatGPT(input);
-      setResponse(result);
-    } catch (error) {
-      setResponse("Error fetching response from OpenAI");
-    } finally {
-      setLoading(false);
-    }
-  };
+  // const handleSubmit = async (event: React.FormEvent) => {
+  //   event.preventDefault();
+  //   setLoading(true);
+  //   try {
+  //     const result = await callChatGPT(input);
+  //     setResponse(result);
+  //   } catch (error) {
+  //     setResponse("Error fetching response from OpenAI");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   return (
     <div>
-      <h1>ChatGPT API Example</h1>
+      hiii
+      {/* <h1>ChatGPT API Example</h1>
       <form onSubmit={handleSubmit}>
         <textarea
           value={input}
@@ -40,7 +41,7 @@ const Chatgpt: React.FC = () => {
           <h2>Response:</h2>
           <p>{response}</p>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
